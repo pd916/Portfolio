@@ -11,7 +11,7 @@ export default function About() {
      <div className='mt-[5vw] flex flex-col gap-5 p-3 sm:mx-3'>
         <h1 className='uppercase font-bold  md:text-start'>Your dependable business ally</h1>
         <p className='text-xs  md:text-lg md:text-start '>
-        Here lies the pivotal distinction that propels us ahead of competitors, enabling us to furnish bespoke business consultancy services. Leveraging our team's diverse expertise, we delve deep into the intricacies. Over years of honing our craft, we've unearthed a crucial insight: every channel, every strategy, requires its own bespoke approach. This realization fuels our relentless pursuit of innovation and excellence.
+        Here lies the pivotal distinction that propels us ahead of competitors, enabling us to furnish bespoke business consultancy services. Leveraging our team&apos;s diverse expertise, we delve deep into the intricacies. Over years of honing our craft, we&apos;ve unearthed a crucial insight: every channel, every strategy, requires its own bespoke approach. This realization fuels our relentless pursuit of innovation and excellence.
         </p>
         <span className='border-b-[1px] mt-5'></span>
      </div>
