@@ -3,7 +3,7 @@ import Image from "next/image"
 import React, { useState } from 'react'
 import { toast } from "sonner"
 
-export default function page() {
+export default function Contact() {
   const [formData, setFormData] = useState({
     name:"",
     email:"",
