@@ -61,7 +61,7 @@ const Box1 = () => {
   <div className='sm:items-center relative h-[15vh] items-center w-[105%] sm:w-full sm:gap-3 sm:h-full flex sm:flex-col gap-2'>
   <div className='bg-[#23194A] flex flex-col items-center gap-2 p-5 py-4 w-full h-[15vh] sm:h-52 lg:h-[48%] sm:w-full rounded-lg'>
   <h3 className='text-white text-[8px] sm:text-sm sm:p-4 sm:pt-8 lg:text-lg lg:p-8 lg:pt-[28px] font-semibold uppercase'>
-     I'm Very Flexible with Time Zone & Communication
+     I am Very Flexible with Time Zone & Communication
    </h3>
    <Image src="/bot.png" alt="bot" width={120} height={120} className="bot max-w-12 sm:max-w-16 lg:max-w-28" />
   </div>

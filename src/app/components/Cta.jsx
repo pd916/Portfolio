@@ -12,7 +12,7 @@ const Cta = () => {
     <Button className="bg-white mt-14 hover:bg-[#D6A77A]
      md:mt-28
      text-black border
-     border-b-slate-950 self-center">Let's Get In Touch</Button>
+     border-b-slate-950 self-center">Lets Get In Touch</Button>
     </Link>
     </div>
     </section>
