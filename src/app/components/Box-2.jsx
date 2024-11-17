@@ -52,7 +52,7 @@ const BoxSecond = () => {
         <div className='bg w-full rounded-lg p-5'>
         <h1 className='text-[9px] font-bold text-center sm:text-xl'>
           Do you want to start a project together</h1>
-          <Link href={"mailto:pdbaginz@gmail.com?subject=offer Inquiry&cc=support@company.com&bcc=info@company.com&body=hello how r you"}>
+          <Link href={"mailto:artiweb09@gmail.com?subject=offer Inquiry&cc=support@company.com&bcc=info@company.com&body=hello how r you"}>
           <button className="px-4 py-2 mt-3 mx-auto text-[5px] flex font-[head] items-center rounded-lg sm:py-2 sm:px-4 bg-gray-800 sm:text-sm lg:w-[14vw] gap-2 lg:text-sm">
         <Mail className='w-[10px] h-[10px] sm:w-[2vw] sm:h-[2vw]'/>
         Email Me</button>
