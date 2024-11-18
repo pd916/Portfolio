@@ -39,9 +39,6 @@ export default function Navbar() {
         <Sheet>
         <SheetTrigger asChild><HiBars2 className="font-bold text-5xl"/></SheetTrigger>
         <SheetContent>
-        <Link href={"/"}>
-        <Image src="/logo.png" alt='logo' width={50} height={50} className='absolute'/>
-        </Link>
         <div className='mt-10'>
         <SheetTitle className="text-muted-foreground">Menu</SheetTitle>
         <div className="flex flex-col items-center justify-center gap-5 mt-5 font-sans">

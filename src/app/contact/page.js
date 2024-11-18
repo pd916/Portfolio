@@ -10,12 +10,14 @@ export default function Contact() {
     number:"",
     message:""
   })
+
+  const baseUrl = process.env.NEXT_PUBLIC_API_URL
   
   
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      const res = await fetch("http://localhost:3000/api/sendemail", {
+      const res = await fetch(`${baseUrl}/api/sendemail`, {
           method:"POST",
           headers:{
               "Content-Type": "application/json"
@@ -24,6 +26,12 @@ export default function Contact() {
           });
           if (res.ok) {
             toast("Email Send Successfully");
+            setFormData({
+              name: "",
+              email: "",
+              number: "",
+              message: ""
+            });
             window.location.reload();
           }
     } catch (error) {
